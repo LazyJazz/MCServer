@@ -1,0 +1,50 @@
+{
+  "XCustomizedBladeVER": 1.50,
+  "CustomizedRecipe": true,
+  "ToolRecipe": false,
+  "XCBTinyCore": true,
+  "ServerInfo": {
+    "ServerPort": 2333,
+    "ServerHostName": "127.0.0.1",
+    "SyncConfig": false
+  },
+  "XCustomizedBladeConfig": [
+    {
+      "BladeName": "TestBlade[Technology Revolution]",
+      "Enchantment": [ "power", 12, "sharpness", 12 ],
+      "BladeShowName": "TestBlade¡¾TechREV¡¿",
+      "BladeModel": "model/2",
+      "BladeTexture": "texture/2",
+      "BladeDamge": 1024.0,
+      "BladeDuration": 1200,
+      "BladeWitched": false,
+      "BladeStandBy": 1,
+      "BladeSA": 123,
+      "BladeSE": "TestSE",
+      "SELevel": 15,
+      "SwordColor": 16744192
+    }
+  ],
+  "XCustomizedSA": [
+    {
+      "SAName": "TestSA",
+      "SANumber": 123,
+      "SACost": 10,
+      "SAInfo": [ "EP", "SD", "PS", "MB", "LN" ],
+      "StepDamage": [ 10, 10, 3, 3, 10 ],
+      "SAStep": [ 5, 1, 100, 2, 5 ],
+      "SACount": 5,
+      "PeaceSelector": true
+    }
+  ],
+  "XCustomizedSE": [
+    {
+      "SEName": "TestSE",
+      "SECost": 10,
+      "SELevel": 15,
+      "SEStep": [ "PE", "SD", "PS" ],
+      "SERuntime": [ 12, 10, 3 ],
+      "SEDamage": [ 100, 1, 100 ]
+    }
+  ]
+}

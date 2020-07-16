@@ -1,0 +1,118 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  CustomSkinLoader ([皮肤补丁]CustomSkinLoader_Forge-14.10a.jar)
+  NetherPortalFixForgeLoadingPlugin ([防卡地狱门]NetherPortalFixForge-1.0.jar)
+  CorePlugin ([平滑字体]SmoothFont-mc1.12.2-2.1.jar)
+  SurgeLoadingPlugin ([启动优化]Surge-1.12.2-2.0.77.jar)
+Contact their authors BEFORE contacting forge
+
+// You're mean.
+
+Time: 6/30/20 10:54 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Scenter (scenter)
+Caused by: java.io.IOException: Can't read line 29: Can't understand 'emerald_ore 80FF9Fredstone_ore,lit_redstone_ore FF0A0A'!
+	at mickkay.scenter.config.TargetsConfig.load(TargetsConfig.java:38)
+	at mickkay.scenter.config.TargetsConfigFile.<init>(TargetsConfigFile.java:15)
+	at mickkay.scenter.config.ScenterModConfig.<init>(ScenterModConfig.java:53)
+	at mickkay.scenter.CommonProxy.reloadConfiguration(CommonProxy.java:31)
+	at mickkay.scenter.client.ClientProxy.reloadConfiguration(ClientProxy.java:62)
+	at mickkay.scenter.CommonProxy.init(CommonProxy.java:26)
+	at mickkay.scenter.client.ClientProxy.init(ClientProxy.java:56)
+	at mickkay.scenter.ScenterMod.preInit(ScenterMod.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.IllegalArgumentException: Can't understand 'emerald_ore 80FF9Fredstone_ore,lit_redstone_ore FF0A0A'!
+	at mickkay.scenter.config.TargetEntry.<init>(TargetEntry.java:29)
+	at mickkay.scenter.config.TargetsConfig.load(TargetsConfig.java:34)
+	... 47 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 733167160 bytes (699 MB) / 1375731712 bytes (1312 MB) up to 8589934592 bytes (8192 MB)
+	JVM Flags: 11 total; -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=16M -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Xmn128m -Xmx8192m -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 20 mods loaded, 19 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                    | Version           | Source                                      | Signature                                |
+	|:----- |:--------------------- |:----------------- |:------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft             | 1.12.2            | minecraft.jar                               | None                                     |
+	| LCH   | mcp                   | 9.42              | minecraft.jar                               | None                                     |
+	| LCH   | FML                   | 8.0.99.99         | forge-1.12.2-14.23.5.2854.jar               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                 | 14.23.5.2854      | forge-1.12.2-14.23.5.2854.jar               | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | smoothfontcore        | mc1.12.2-2.1      | minecraft.jar                               | None                                     |
+	| LCH   | smoothfont            | mc1.12.2-2.1      | [平滑字体]SmoothFont-mc1.12.2-2.1.jar           | None                                     |
+	| LCH   | surge                 | 2.0.77            | [启动优化]Surge-1.12.2-2.0.77.jar               | d476d1b22b218a10d845928d1665d45fce301b27 |
+	| LCH   | journeymap            | 1.12.2-5.7.1      | [旅行地图]journeymap-1.12.2-5.7.1.jar           | None                                     |
+	| LCH   | fbp                   | 2.4.1             | [梦幻方块]FancyBlockParticles-1.12.x-2.4.1.jar  | None                                     |
+	| LCH   | customskinloader      | 14.10a            | [皮肤补丁]CustomSkinLoader_Forge-14.10a.jar     | 52885f395e68f42e9b3b629ba56ecf606f7d4269 |
+	| LCH   | theoneprobe           | 1.4.28            | [高亮显示]theoneprobe-1.12-1.4.28.jar           | None                                     |
+	| LCH   | ic2                   | 2.8.193-ex112     | 【工业2实验版】industrialcraft-2-2.8.193-ex112.jar | de041f9f6187debbc77034a344134053277aa3b0 |
+	| LCH   | topaddons             | 1.12.2-1.10.1     | [高亮显示附属]topaddons-1.12.2-1.10.1.jar         | None                                     |
+	| LCH   | mousetweaks           | 2.10              | [鼠标整理]MouseTweaks-2.10-mc1.12.2.jar         | None                                     |
+	| LCH   | jei                   | 4.8.5.150         | jei_1.12.2-4.8.5.150.jar                    | None                                     |
+	| LCE   | scenter               | 1.12-3.11.0       | scenter-1.12.2-3.12.0.jar                   | None                                     |
+	| LC    | flammpfeil.slashblade | mc1.12-r6         | 【拔刀剑】SlashBlade-mc1.12-r6.jar               | None                                     |
+	| LC    | ironchest             | 1.12-7.0.31.818   | 【更多箱子】ironchest-1.12-7.0.31.818.jar         | None                                     |
+	| LC    | sakura                | V0.0.8.2-MC1.12.2 | 【樱花-日系mod】Sakura-V0.0.8.2-MC1.12.2.jar      | None                                     |
+	| UD    | netherportalfixforge  | 1.0.0             | minecraft.jar                               | None                                     |
+
+	Loaded coremods (and transformers): 
+CustomSkinLoader ([皮肤补丁]CustomSkinLoader_Forge-14.10a.jar)
+  customskinloader.forge.loader.LaunchWrapper
+NetherPortalFixForgeLoadingPlugin ([防卡地狱门]NetherPortalFixForge-1.0.jar)
+  kengxxiao.netherportalfix.coremod.NetherPortalFixForgeClassTransformer
+CorePlugin ([平滑字体]SmoothFont-mc1.12.2-2.1.jar)
+  bre.smoothfont.asm.Transformer
+SurgeLoadingPlugin ([启动优化]Surge-1.12.2-2.0.77.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 451.48' Renderer: 'GeForce RTX 2080 Ti/PCIe/SSE2'
