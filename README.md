@@ -12,7 +12,7 @@
 
 本页面内下载
 
-![下载按钮位置](https://i.loli.net/2020/07/16/kQpeayHTuAjVlhR.png)
+![下载按钮位置](download_button.jpg)
 
 百度网盘下载链接：https://pan.baidu.com/s/1whgXR0iBzU09WlIRMSgPEA 提取码：fwtw 
 
