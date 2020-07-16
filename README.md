@@ -12,9 +12,15 @@
 
 本页面内下载
 
-![下载按钮位置](download_button.png)
+![下载按钮位置](https://i.loli.net/2020/07/16/kQpeayHTuAjVlhR.png)
 
 百度网盘下载链接：https://pan.baidu.com/s/1whgXR0iBzU09WlIRMSgPEA 提取码：fwtw 
+
+## 运行需要JAVA！！
+
+游戏运行需要Java SE Runtime Environment 8 64位
+
+[JRE8 x64下载链接](https://download.oracle.com/otn/java/jdk/8u261-b12/a4634525489241b9a9e1aa73d9e118e6/jre-8u261-windows-x64.exe?AuthParam=1594865257_dfed73183a8c0ec0e5c0a3d0ddaf33a5)
 
 ## 常用指令说明
 
