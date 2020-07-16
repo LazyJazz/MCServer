@@ -12,7 +12,7 @@
 
 本页面内下载
 
-![下载按钮位置](download_button.jpg)
+![下载按钮位置](https://github.com/LazyJazz/MCServer/blob/master/download_button.jpg)
 
 百度网盘下载链接：https://pan.baidu.com/s/1whgXR0iBzU09WlIRMSgPEA 提取码：fwtw 
 
