@@ -10,17 +10,17 @@
 
 ## 下载
 
-本页面内下载
+点击本内容框右上角绿色**Code**按钮，然后点击 **Download ZIP** 下载整合包。
 
-![下载按钮位置](https://github.com/LazyJazz/MCServer/blob/master/download_button.jpg)
-
-百度网盘下载链接：https://pan.baidu.com/s/1whgXR0iBzU09WlIRMSgPEA 提取码：fwtw 
+或者通过百度网盘下载：百度网盘下载链接：https://pan.baidu.com/s/1whgXR0iBzU09WlIRMSgPEA 提取码：fwtw 
 
 ## 运行需要JAVA！！
 
 游戏运行需要Java SE Runtime Environment 8 64位
 
-[JRE8 x64下载链接](https://download.oracle.com/otn/java/jdk/8u261-b12/a4634525489241b9a9e1aa73d9e118e6/jre-8u261-windows-x64.exe?AuthParam=1594865257_dfed73183a8c0ec0e5c0a3d0ddaf33a5)
+[JRE8 x64下载链接](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)
+
+请下载jre_8u***_windows_x64.exe。（需要注册Oracle账号）
 
 ## 常用指令说明
 

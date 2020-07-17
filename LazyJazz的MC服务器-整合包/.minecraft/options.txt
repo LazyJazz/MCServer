@@ -2,18 +2,18 @@ version:1343
 invertYMouse:false
 mouseSensitivity:0.5
 fov:0.0
-gamma:0.0
+gamma:1.0
 saturation:0.0
 renderDistance:12
 guiScale:0
 particles:0
-bobView:true
+bobView:false
 anaglyph3d:false
 maxFps:120
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
-ao:2
+ao:0
 renderClouds:true
 resourcePacks:[]
 incompatibleResourcePacks:[]
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -39,11 +39,11 @@ chatHeightFocused:1.0
 chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:4
+mipmapLevels:0
 forceUnicodeFont:false
 reducedDebugInfo:false
 useNativeTransport:true
-entityShadows:true
+entityShadows:false
 mainHand:right
 attackIndicator:1
 showSubtitles:false
@@ -95,33 +95,22 @@ key_Toggle Freeze Effect:19
 key_Enable/Disable:0
 key_Kill Particles:0
 key_Blacklist Block:45
+key_keybind.baublesinventory:48
 key_smoothfont.key.guiOpen:199
-key_gui.xaero_better_pvp_settings:21
-key_gui.xaero_switch_waypoint_set:0
-key_gui.xaero_instant_waypoint:78
-key_gui.xaero_toggle_slime:0
-key_gui.xaero_toggle_grid:0
-key_gui.xaero_toggle_waypoints:0
-key_gui.xaero_toggle_map:35
-key_gui.xaero_enlarge_map:44
-key_gui.xaero_waypoints_key:22
-key_gui.xaero_zoom_in:23
-key_gui.xaero_zoom_out:24
-key_gui.xaero_new_waypoint:48
-key_gui.xaero_quick_eat:19
-key_gui.xaero_toggle_sneak:46
-key_gui.xaero_quick_use_1:79
-key_gui.xaero_quick_use_2:80
-key_gui.xaero_quick_use_3:81
-key_gui.xaero_quick_use_4:75
-key_gui.xaero_quick_use_5:76
-key_gui.xaero_quick_use_6:77
-key_gui.xaero_quick_use_7:71
-key_gui.xaero_quick_use_8:72
-key_gui.xaero_quick_use_9:73
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
-key_key.sakura.sheath_in:47
+key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.focusSearch:33:CONTROL
+key_key.jei.toggleCheatMode:0
+key_key.jei.showRecipe:19
+key_key.jei.showUses:22
+key_key.jei.recipeBack:14
+key_key.jei.previousPage:201
+key_key.jei.nextPage:209
+key_nei.options.keys.gui.botania_corporea_request:46
+key_Enable Scenter / Next Block:24
+key_Previous Block:25
+key_Disable Scenter:23
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26

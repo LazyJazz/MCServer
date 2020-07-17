@@ -1,8 +1,0 @@
-{
-  "id" : "e6846ec745824ae3ae7000c791f57e17",
-  "name" : "LazyJazz",
-  "properties" : [ {
-    "name" : "textures",
-    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTU5NDg1NjcxODM4MiwKICAicHJvZmlsZUlkIiA6ICJlNjg0NmVjNzQ1ODI0YWUzYWU3MDAwYzc5MWY1N2UxNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYXp5SmF6eiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YzU0NGQyMWU5ZmYzYjZjMzc5YmVmNmNmZjkzMTY5ZmVhMWJlNzQzNmI3YjdiOTFhMDk3NGYwYWRlMmJhM2QzIgogICAgfQogIH0KfQ=="
-  } ]
-}
