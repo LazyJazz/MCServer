@@ -10,7 +10,7 @@
 
 ## 下载
 
-点击本内容框右上角绿色**Code**按钮，然后点击 **Download ZIP** 下载整合包。
+点击绿色**Code**按钮，然后点击 **Download ZIP** 下载整合包。
 
 或者通过百度网盘下载：百度网盘下载链接：https://pan.baidu.com/s/1whgXR0iBzU09WlIRMSgPEA 提取码：fwtw 
 
