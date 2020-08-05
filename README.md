@@ -1,8 +1,8 @@
-# LazyJazz的Minecraft服务器客户端整合包
+# LazyTechTown客户端整合包
 
 ## 简介
 
-这是LazyJazz的Minecraft MOD服务器整合包，目前包含了**工业2**（Industrial Craft 2）、**通用机械**（Mekanism）、**建筑** (BuildCraft)、**暮色森林**（Twilight Forest）、**植物魔法**（Botania）几个MOD模块及一些相关拓展。
+这是LazyTechTown的Minecraft客户端整合包，目前包含了**工业2**（Industrial Craft 2）、**通用机械**（Mekanism）、**建筑** (BuildCraft)、**暮色森林**（Twilight Forest）、**植物魔法**（Botania）几个MOD模块及一些相关拓展。
 
 服务器采用地皮组件，给玩家提供了150×150超大的地皮空间，支持经济系统和箱子商店。并且在主世界**不禁用核弹！！！**（核弹可以在官方商店通过游戏内货币购买）。
 
